@@ -5,6 +5,7 @@ resource "google_storage_bucket" "vinid-bucket" {
   location      = "ASIA"
 }
 resource "google_storage_bucket" "vinid-bucket1" {
-  name     = "anhbv-cloudtests"
+  name     = "anhbv-aaa"
   location      = "ASIA"
+  labels 
 }
