@@ -11,5 +11,8 @@ resource "google_storage_bucket" "vinid-bucket" {
 resource "google_storage_bucket" "vinid-bucket1" {
   name     = "anhbv-aaa"
   location      = "ASIA"
-   
+     labels = {
+    av="sam"
+
+  }
 }
