@@ -16,3 +16,4 @@ resource "google_storage_bucket" "vinid-bucket1" {
 
   }
 }
+#aaaa
