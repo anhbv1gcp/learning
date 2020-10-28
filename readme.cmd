@@ -5,4 +5,4 @@ Run local:
    - tf3 login app.terraform.io
 
 tf3 state list
-plan target  : go to Environment Variables  add TF_CLI_ARGS_plan value -target=google_storage_bucket.vinid-bucket
+plan target  : go to Environment Variables and add TF_CLI_ARGS_plan value -target=google_storage_bucket.vinid-bucket
